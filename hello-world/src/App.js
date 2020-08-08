@@ -5,20 +5,29 @@ import  {Greet} from './components/greet';
 import Welcome from './components/welcome';
 import Hello from './components/hello';
 import Message from './components/message'
+import Counter from './components/counter'
+import FunctionClick from './components/functionClick'
+import ClassClick from './components/classClick'
+import EventBinding from './components/eventBinding'
+import ParentComponent from './components/parentComponent'
+import UserGreet from './components/userGreet'
 function App() {
   return (
     <div className="App">
-    <Greet name="Haritha Cheatangle"/> 
+   <Greet name="Haritha Cheatangle"/> 
     <Greet name="Ben10" heroName="Heat Blast"/>
     <button>Hero Time </button>
-    <Greet name="Hannah Harami">
-    <p>Hannah is similar to Rhea Harami</p></Greet> 
     <Welcome name="Haritha Cheatangle"/> 
     <Welcome name="Ben10" heroName="Heat Blast"/> 
     <Welcome name="Hannah Harami"/> 
     <Hello/>
-    <Message>
-    </Message>
+    <Message/>
+    <Counter/>
+    <FunctionClick/>
+    <ClassClick/>
+    <EventBinding/>
+    <ParentComponent/>
+    <UserGreet/>
     </div>
   );
 }
